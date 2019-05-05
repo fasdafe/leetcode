@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3C622D33-B35D-469A-A6ED-E6914DDC6FFE}</ProjectGuid>
+    <RootNamespace>LeetCode</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="addOperators.cpp" />
+    <ClCompile Include="calcEquation.cpp" />
+    <ClCompile Include="calendarThree.cpp" />
+    <ClCompile Include="calendarTwo.cpp" />
+    <ClCompile Include="connectNextNode.cpp" />
+    <ClCompile Include="countPrimeSetBits.cpp" />
+    <ClCompile Include="countRangeSum.cpp" />
+    <ClCompile Include="countSmaller.cpp" />
+    <ClCompile Include="cutOffTrees.cpp" />
+    <ClCompile Include="deleteNode.cpp" />
+    <ClCompile Include="findLadders.cpp" />
+    <ClCompile Include="findMedianSortedArrays.cpp" />
+    <ClCompile Include="findMode.cpp" />
+    <ClCompile Include="flattenBinaryTree.cpp" />
+    <ClCompile Include="insertIntoBST.cpp" />
+    <ClCompile Include="isValidBST.cpp" />
+    <ClCompile Include="kthSmallest.cpp" />
+    <ClCompile Include="longestCommonPrefix.cpp" />
+    <ClCompile Include="maxPathSum.cpp" />
+    <ClCompile Include="minDiffInBST.cpp" />
+    <ClCompile Include="minWindow.cpp" />
+    <ClCompile Include="myCalendarThreeWithTree.cpp" />
+    <ClCompile Include="myCalendarThreeWithTree2.cpp" />
+    <ClCompile Include="numPermsDISequence.cpp" />
+    <ClCompile Include="pushDominoes.cpp" />
+    <ClCompile Include="recoverBST.cpp" />
+    <ClCompile Include="rectangleAreaII.cpp" />
+    <ClCompile Include="removeInvalidParentheses.cpp" />
+    <ClCompile Include="reversePairs.cpp" />
+    <ClCompile Include="smallestRange.cpp" />
+    <ClCompile Include="solveNQueens.cpp" />
+    <ClCompile Include="solveSudoku.cpp" />
+    <ClCompile Include="substringConcatenation.cpp" />
+    <ClCompile Include="surroundedRegions.cpp" />
+    <ClCompile Include="wordFilter.cpp" />
+    <ClCompile Include="wordSearchII.cpp" />
+    <ClCompile Include="hasAlternatingBits.cpp" />
+    <ClCompile Include="ipToCIDR.cpp" />
+    <ClCompile Include="largestDivisibleSubset.cpp" />
+    <ClCompile Include="longestValidParentheses.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="maximalRectangle.cpp" />
+    <ClCompile Include="maxNumber.cpp" />
+    <ClCompile Include="new21Game.cpp" />
+    <ClCompile Include="numSquarefulPerms.cpp" />
+    <ClCompile Include="numSquares.cpp" />
+    <ClCompile Include="problems.cpp" />
+    <ClCompile Include="readBinaryWatch.cpp" />
+    <ClCompile Include="repeatedDNASequences.cpp" />
+    <ClCompile Include="shoppingOffers.cpp" />
+    <ClCompile Include="subsets.cpp" />
+    <ClCompile Include="subsetsWithDup.cpp" />
+    <ClCompile Include="toHex.cpp" />
+    <ClCompile Include="Trie.cpp" />
+    <ClCompile Include="wordDict.cpp" />
+    <ClCompile Include="wordSearch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SegmentTree.h" />
+    <ClInclude Include="Trie.h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
