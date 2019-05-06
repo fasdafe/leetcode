@@ -189,6 +189,9 @@
     <ClCompile Include="surroundedRegions.cpp">
       <Filter>Source Files\Union Find</Filter>
     </ClCompile>
+    <ClCompile Include="isEscapable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils.h">

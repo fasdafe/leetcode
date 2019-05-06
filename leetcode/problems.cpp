@@ -45,6 +45,7 @@ void testSubstringConcatenation();
 void testPushDominoes();
 void testCalcEquation();
 void testSurroundedRegions();
+void testIsEscapable();
 
 void test(int id){
 	using namespace std;
@@ -213,6 +214,10 @@ void test(int id){
 	case 130:
 		cout << "----------Test Surrounded Regions-----------" << endl;
 		testSurroundedRegions();
+		break;	
+	case 1036:
+		cout << "----------Test Escape A Large Maze-----------" << endl;
+		testIsEscapable();
 		break;	
 	default:
 		cout << "Problem #" << id << " is not recognized!" << endl;

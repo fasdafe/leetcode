@@ -78,6 +78,7 @@
     <ClCompile Include="findMode.cpp" />
     <ClCompile Include="flattenBinaryTree.cpp" />
     <ClCompile Include="insertIntoBST.cpp" />
+    <ClCompile Include="isEscapable.cpp" />
     <ClCompile Include="isValidBST.cpp" />
     <ClCompile Include="kthSmallest.cpp" />
     <ClCompile Include="longestCommonPrefix.cpp" />
