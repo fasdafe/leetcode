@@ -46,6 +46,7 @@ void testPushDominoes();
 void testCalcEquation();
 void testSurroundedRegions();
 void testIsEscapable();
+void testShipWithinDays();
 
 void test(int id){
 	using namespace std;
@@ -219,6 +220,10 @@ void test(int id){
 		cout << "----------Test Escape A Large Maze-----------" << endl;
 		testIsEscapable();
 		break;	
+	case 1011:
+		cout << "----------Test Ship Within Days-----------" << endl;
+		testShipWithinDays();
+		break;
 	default:
 		cout << "Problem #" << id << " is not recognized!" << endl;
 		break;

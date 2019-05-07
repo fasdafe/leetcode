@@ -192,6 +192,9 @@
     <ClCompile Include="isEscapable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="shipWithinDays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils.h">

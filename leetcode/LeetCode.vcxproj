@@ -93,6 +93,7 @@
     <ClCompile Include="rectangleAreaII.cpp" />
     <ClCompile Include="removeInvalidParentheses.cpp" />
     <ClCompile Include="reversePairs.cpp" />
+    <ClCompile Include="shipWithinDays.cpp" />
     <ClCompile Include="smallestRange.cpp" />
     <ClCompile Include="solveNQueens.cpp" />
     <ClCompile Include="solveSudoku.cpp" />
