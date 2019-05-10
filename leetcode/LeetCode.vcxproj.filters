@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Union Find">
       <UniqueIdentifier>{57ceb441-ede3-438a-99aa-da7cf90eea55}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Stack">
+      <UniqueIdentifier>{f9511e7e-7a16-46ac-b994-9b0e2936cdd7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -194,6 +197,24 @@
     </ClCompile>
     <ClCompile Include="shipWithinDays.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="duplicateDigits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="calcThreePartsEqualSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smallestRepunitDivByK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maxScoreSightseeingPair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="queryNumAsSubstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nextLargerNode.cpp">
+      <Filter>Source Files\Stack</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

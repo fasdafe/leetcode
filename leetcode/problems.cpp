@@ -47,6 +47,7 @@ void testCalcEquation();
 void testSurroundedRegions();
 void testIsEscapable();
 void testShipWithinDays();
+void testDuplicateDigits();
 
 void test(int id){
 	using namespace std;
@@ -223,6 +224,10 @@ void test(int id){
 	case 1011:
 		cout << "----------Test Ship Within Days-----------" << endl;
 		testShipWithinDays();
+		break;
+	case 1012:
+		cout << "----------Test Numbers With Repeated Digits-----------" << endl;
+		testDuplicateDigits();
 		break;
 	default:
 		cout << "Problem #" << id << " is not recognized!" << endl;

@@ -65,6 +65,7 @@
   <ItemGroup>
     <ClCompile Include="addOperators.cpp" />
     <ClCompile Include="calcEquation.cpp" />
+    <ClCompile Include="calcThreePartsEqualSum.cpp" />
     <ClCompile Include="calendarThree.cpp" />
     <ClCompile Include="calendarTwo.cpp" />
     <ClCompile Include="connectNextNode.cpp" />
@@ -73,6 +74,7 @@
     <ClCompile Include="countSmaller.cpp" />
     <ClCompile Include="cutOffTrees.cpp" />
     <ClCompile Include="deleteNode.cpp" />
+    <ClCompile Include="duplicateDigits.cpp" />
     <ClCompile Include="findLadders.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="findMode.cpp" />
@@ -83,18 +85,22 @@
     <ClCompile Include="kthSmallest.cpp" />
     <ClCompile Include="longestCommonPrefix.cpp" />
     <ClCompile Include="maxPathSum.cpp" />
+    <ClCompile Include="maxScoreSightseeingPair.cpp" />
     <ClCompile Include="minDiffInBST.cpp" />
     <ClCompile Include="minWindow.cpp" />
     <ClCompile Include="myCalendarThreeWithTree.cpp" />
     <ClCompile Include="myCalendarThreeWithTree2.cpp" />
+    <ClCompile Include="nextLargerNode.cpp" />
     <ClCompile Include="numPermsDISequence.cpp" />
     <ClCompile Include="pushDominoes.cpp" />
+    <ClCompile Include="queryNumAsSubstring.cpp" />
     <ClCompile Include="recoverBST.cpp" />
     <ClCompile Include="rectangleAreaII.cpp" />
     <ClCompile Include="removeInvalidParentheses.cpp" />
     <ClCompile Include="reversePairs.cpp" />
     <ClCompile Include="shipWithinDays.cpp" />
     <ClCompile Include="smallestRange.cpp" />
+    <ClCompile Include="smallestRepunitDivByK.cpp" />
     <ClCompile Include="solveNQueens.cpp" />
     <ClCompile Include="solveSudoku.cpp" />
     <ClCompile Include="substringConcatenation.cpp" />
