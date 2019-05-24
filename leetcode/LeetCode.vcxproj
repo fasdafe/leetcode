@@ -64,17 +64,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="addOperators.cpp" />
+    <ClCompile Include="addToArrayForm.cpp" />
     <ClCompile Include="calcEquation.cpp" />
     <ClCompile Include="calcThreePartsEqualSum.cpp" />
     <ClCompile Include="calendarThree.cpp" />
     <ClCompile Include="calendarTwo.cpp" />
+    <ClCompile Include="concatenatedWords.cpp" />
     <ClCompile Include="connectNextNode.cpp" />
     <ClCompile Include="countPrimeSetBits.cpp" />
     <ClCompile Include="countRangeSum.cpp" />
     <ClCompile Include="countSmaller.cpp" />
+    <ClCompile Include="countTriplets.cpp" />
     <ClCompile Include="cutOffTrees.cpp" />
     <ClCompile Include="deleteNode.cpp" />
     <ClCompile Include="duplicateDigits.cpp" />
+    <ClCompile Include="equationsPossible.cpp" />
     <ClCompile Include="findLadders.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="findMode.cpp" />
@@ -83,9 +87,14 @@
     <ClCompile Include="isEscapable.cpp" />
     <ClCompile Include="isValidBST.cpp" />
     <ClCompile Include="kthSmallest.cpp" />
+    <ClCompile Include="longestArithSeqLen.cpp" />
     <ClCompile Include="longestCommonPrefix.cpp" />
+    <ClCompile Include="longestDupSubstring.cpp" />
+    <ClCompile Include="longestSubstring.cpp" />
+    <ClCompile Include="maximumBinaryTree.cpp" />
     <ClCompile Include="maxPathSum.cpp" />
     <ClCompile Include="maxScoreSightseeingPair.cpp" />
+    <ClCompile Include="minCostToMerge.cpp" />
     <ClCompile Include="minDiffInBST.cpp" />
     <ClCompile Include="minWindow.cpp" />
     <ClCompile Include="myCalendarThreeWithTree.cpp" />
@@ -103,8 +112,10 @@
     <ClCompile Include="smallestRepunitDivByK.cpp" />
     <ClCompile Include="solveNQueens.cpp" />
     <ClCompile Include="solveSudoku.cpp" />
+    <ClCompile Include="subarrayWithKDistinct.cpp" />
     <ClCompile Include="substringConcatenation.cpp" />
     <ClCompile Include="surroundedRegions.cpp" />
+    <ClCompile Include="videoStitching.cpp" />
     <ClCompile Include="wordFilter.cpp" />
     <ClCompile Include="wordSearchII.cpp" />
     <ClCompile Include="hasAlternatingBits.cpp" />

@@ -48,6 +48,11 @@ void testSurroundedRegions();
 void testIsEscapable();
 void testShipWithinDays();
 void testDuplicateDigits();
+void testVideoStitching();
+void testLongestArithSeqLen();
+void testLongestDupSubstring();
+void testCountTriplets();
+void testConcatenatedWords();
 
 void test(int id){
 	using namespace std;
@@ -228,6 +233,26 @@ void test(int id){
 	case 1012:
 		cout << "----------Test Numbers With Repeated Digits-----------" << endl;
 		testDuplicateDigits();
+		break;
+	case 1024:
+		cout << "----------Test Video Stitching-----------" << endl;
+		testVideoStitching();
+		break;
+	case 1027:
+		cout << "----------Test Longest Arithmetic Sequence-----------" << endl;
+		testLongestArithSeqLen();
+		break;
+	case 1044:
+		cout << "----------Test Longest Duplicate Substring-----------" << endl;
+		testLongestDupSubstring();
+		break;
+	case 982:
+		cout << "----------Test Triples with Bitwise AND Equal To Zero-----------" << endl;
+		testCountTriplets();
+		break;
+	case 472:
+		cout << "----------Test Concatenated Words in Dictionary-----------" << endl;
+		testConcatenatedWords();
 		break;
 	default:
 		cout << "Problem #" << id << " is not recognized!" << endl;

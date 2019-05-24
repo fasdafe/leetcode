@@ -22,6 +22,15 @@
     <Filter Include="Source Files\Stack">
       <UniqueIdentifier>{f9511e7e-7a16-46ac-b994-9b0e2936cdd7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Two Pointers">
+      <UniqueIdentifier>{a3c9087f-cedd-4eba-8722-669cc3716e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bit Manipulation">
+      <UniqueIdentifier>{4c66f08e-e7ea-4d5c-9bc2-b0d012d58e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dynamic Programming">
+      <UniqueIdentifier>{f4873159-2218-4307-ba2f-d6772a8a4acb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -215,6 +224,39 @@
     </ClCompile>
     <ClCompile Include="nextLargerNode.cpp">
       <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="videoStitching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="longestArithSeqLen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="longestDupSubstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="minCostToMerge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maximumBinaryTree.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="subarrayWithKDistinct.cpp">
+      <Filter>Source Files\Two Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="addToArrayForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="equationsPossible.cpp">
+      <Filter>Source Files\Union Find</Filter>
+    </ClCompile>
+    <ClCompile Include="longestSubstring.cpp">
+      <Filter>Source Files\Two Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="countTriplets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concatenatedWords.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
