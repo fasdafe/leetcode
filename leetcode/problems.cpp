@@ -53,6 +53,9 @@ void testLongestArithSeqLen();
 void testLongestDupSubstring();
 void testCountTriplets();
 void testConcatenatedWords();
+void testReverseKGroup();
+void testIndexPairs();
+void testCharacterReplacement();
 
 void test(int id){
 	using namespace std;
@@ -253,6 +256,14 @@ void test(int id){
 	case 472:
 		cout << "----------Test Concatenated Words in Dictionary-----------" << endl;
 		testConcatenatedWords();
+		break;
+	case 25:
+		cout << "----------Test Reverse K Group in Linked List-----------" << endl;
+		testReverseKGroup();
+		break;
+	case 424:
+		cout << "----------Test Character Replacement-----------" << endl;
+		testCharacterReplacement();
 		break;
 	default:
 		cout << "Problem #" << id << " is not recognized!" << endl;
